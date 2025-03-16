@@ -373,117 +373,101 @@
 
 ---
 
-<div align="center" style="margin: 2rem 0;">
+# 🐚 **Shell Scripting Reference Hub** 🔍
 
-# **Shell Script References & Documentation** 📚
+> *Professional resources in GitHub-compatible format*
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+---
 
-<!-- Documentation Card -->
-<div style="padding: 1.5rem; border-radius: 12px; background: #f0f4ff; border: 1px solid #dbe4ff; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
+## 📚 **Table of Contents**
+1. [Official Docs](#-official-documentation)  
+2. [Learning Path](#-learning-path)  
+3. [Essential Tools](#-essential-tools)  
+4. [Recommended Books](#-recommended-books)  
+5. [Community](#-community)  
+6. [Quick Script](#-quick-script-example)
 
-### 📜 **Official Docs**
-[![Bash Manual](https://img.shields.io/badge/GNU_Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/manual/)  
-<span style="color: #4a5568;">Definitive Bash reference guide</span>
+---
 
-[![Bash Reference](https://img.shields.io/badge/Bash_Reference-4EAA25?style=flat-square)](https://www.gnu.org/software/bash/manual/bash.html)  
-<span style="color: #4a5568;">Complete syntax & command reference</span>
+## 📜 Official Documentation
 
-</div>
-</div>
+[![Bash Manual](https://img.shields.io/badge/GNU_Bash-4EAA25?logo=gnu-bash)](https://www.gnu.org/software/bash/manual/)  
+[![POSIX Standard](https://img.shields.io/badge/POSIX_Shell-005571)](https://pubs.opengroup.org/onlinepubs/9699919799/)
 
-<!-- Tutorials Card -->
-<div style="padding: 1.5rem; border-radius: 12px; background: #f0fdf4; border: 1px solid #bbf7d0; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
+---
 
-### 🎓 **Learning Guides**
-[![ShellScript.sh](https://img.shields.io/badge/ShellScript.sh-FF7139?style=flat-square)](https://www.shellscript.sh/)  
-<span style="color: #4a5568;">Beginner-friendly tutorial series</span>
+## 🎓 Learning Path
 
-[![TutorialsPoint](https://img.shields.io/badge/TutorialsPoint-8A4182?style=flat-square&logo=tutorialspoint)](https://www.tutorialspoint.com/unix/shell_scripting.htm)  
-<span style="color: #4a5568;">Comprehensive scripting guide</span>
+| Level | Resource | Highlights |
+|-------|----------|------------|
+| 🟢 **Beginner** | [ShellScript.sh](https://www.shellscript.sh/) | Interactive exercises |
+| 🟡 **Intermediate** | [Linux Journey](https://linuxjourney.com/) | CLI fundamentals |
+| 🔴 **Advanced** | [Bash Guide](https://guide.bash.academy/) | Deep language features |
 
-</div>
-</div>
+---
 
-<!-- Courses Card -->
-<div style="padding: 1.5rem; border-radius: 12px; background: #f5f3ff; border: 1px solid #ddd6fe; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
+## 🛠️ Essential Tools
 
-### 🎥 **Courses**
-[![Codecademy](https://img.shields.io/badge/Codecademy-1F4056?style=flat-square&logo=codecademy)](https://www.codecademy.com/learn/learn-the-command-line)  
-<span style="color: #4a5568;">Interactive CLI course</span>
+```bash
+# Validate script syntax
+shellcheck your_script.sh
 
-[![Udemy](https://img.shields.io/badge/Udemy-EC5252?style=flat-square&logo=udemy)](https://www.udemy.com/course/linux-shell-scripting/)  
-<span style="color: #4a5568;">Practical scripting examples</span>
+# Debug script execution
+bash -x your_script.sh
+```
 
-</div>
-</div>
+| Tool | Description |
+|------|-------------|
+| [![ShellCheck](https://img.shields.io/badge/ShellCheck-4EAA25)](https://www.shellcheck.net/) | Static analysis for scripts |
+| [![ExplainShell](https://img.shields.io/badge/ExplainShell-FF7139)](https://explainshell.com/) | Command line explainer |
 
-<!-- Community Card -->
-<div style="padding: 1.5rem; border-radius: 12px; background: #fff4ed; border: 1px solid #ffd8c2; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
+---
 
-### 🗣️ **Community**
-[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-F58025?style=flat-square&logo=stack-overflow)](https://stackoverflow.com/questions/tagged/bash)  
-<span style="color: #4a5568;">Q&A for scripting issues</span>
+## 📖 Recommended Books
 
-[![Unix SE](https://img.shields.io/badge/Unix_SE-009CDF?style=flat-square)](https://unix.stackexchange.com/)  
-<span style="color: #4a5568;">Expert troubleshooting</span>
+[![Linux CLI Book](https://img.shields.io/badge/FREE_Ebook-1E90FF)](http://linuxcommand.org/tlcl.php)  
+*"The Linux Command Line" - William Shotts*
 
-</div>
-</div>
+[![O'Reilly](https://img.shields.io/badge/O'Reilly-DD0031)](https://www.oreilly.com/library/view/learning-the-bash/9780596009656/)  
+*"Learning the bash Shell" - Cameron Newham*
 
-<!-- Books Card -->
-<div style="padding: 1.5rem; border-radius: 12px; background: #fef2f2; border: 1px solid #fecaca; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
+---
 
-### 📚 **Books**
-[![Linux Command Line](https://img.shields.io/badge/FREE_Book-1E90FF?style=flat-square)](http://linuxcommand.org/tlcl.php)  
-<span style="color: #4a5568;">Essential CLI handbook</span>
+## 💬 Community
 
-[![O'Reilly](https://img.shields.io/badge/O'Reilly-DD0031?style=flat-square&logo=oreilly)](https://www.oreilly.com/library/view/learning-the-bash/9780596009656/)  
-<span style="color: #4a5568;">Advanced Bash mastery</span>
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-F58025?logo=stack-overflow)](https://stackoverflow.com/questions/tagged/bash)  
+[![Unix SE](https://img.shields.io/badge/Unix_SE-009CDF?logo=stack-exchange)](https://unix.stackexchange.com/)
 
-</div>
-</div>
+---
 
-<!-- Tools Card -->
-<div style="padding: 1.5rem; border-radius: 12px; background: #e6fffa; border: 1px solid #a5f3d0; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
+## 🚀 Quick Script Example
 
-### 🔧 **Tools**
-[![Awesome Shell](https://img.shields.io/badge/Awesome_Shell-FFBF00?style=flat-square)](https://github.com/alebcay/awesome-shell)  
-<span style="color: #4a5568;">Curated resource list</span>
+```bash
+#!/bin/bash
+# System Health Snapshot
+echo "🕒 $(date '+%Y-%m-%d %H:%M:%S')"
+echo "💻 Host: $(hostname)"
+echo "📦 Storage: $(df -h / | awk 'NR==2{print $4}') free"
+echo "🔥 Load: $(uptime | awk -F'[a-z]:' '{print $2}')"
+```
 
-[![ShellCheck](https://img.shields.io/badge/ShellCheck-4EAA25?style=flat-square)](https://www.shellcheck.net/)  
-<span style="color: #4a5568;">Script analysis tool</span>
+---
 
-</div>
-</div>
+<details>
+<summary>📌 GitHub Formatting Guide</summary>
 
-</div>
+### Supported Features:
+- **Badges**: `[![Text](URL)]()`
+- **Tables**: Pipe `|` syntax
+- **Code Blocks**: Triple backticks with language
+- **Emojis**: Native `:emoji:` or direct symbols
+- **Links**: Standard `[Text](URL)`
 
-<style>
-  div[style*="transition"]:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  }
-  
-  a:hover {
-    filter: brightness(1.1);
-    text-decoration: none;
-  }
-  
-  @media (max-width: 768px) {
-    div[style*="grid-template-columns"] {
-      grid-template-columns: 1fr;
-      gap: 1rem;
-    }
-  }
-</style>
-</div>
+### Avoid:
+- Custom HTML/CSS
+- Complex layouts
+- External stylesheets
+</details>
 
 ---
 
