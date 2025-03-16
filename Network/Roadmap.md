@@ -10,13 +10,6 @@ Shell scripting allows you to automate tasks and control your system through com
 
 ---
 
-<style>
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-</style>
-
 # **1. Basic Commands**
 
 | **Command** | **Subcommands**         | **Description**                                        | **Why it's used** |
