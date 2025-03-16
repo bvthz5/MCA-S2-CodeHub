@@ -10,14 +10,6 @@
 - **Orchestrate workflows** across servers, clouds, and containers (Kubernetes-friendly!) ☁️  
 - **Audit trails** built-in: Every script is documentation of your system’s DNA 🧬  
 
-### 📊 **Enterprise-Grade Impact**  
-```bash
-# Audit user logins across servers (Multi-machine magic!)  
-for server in $(cat server_list.txt); do  
-  echo "🔎 $server:" && ssh admin@$server "last -n 5"  
-done
-
----
 
 # **1. Basic Commands**
 
