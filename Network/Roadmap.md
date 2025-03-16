@@ -471,173 +471,117 @@ echo "🔥 Load: $(uptime | awk -F'[a-z]:' '{print $2}')"
 
 ---
 
-# **Shell Script Coding Resources** 🐚
-
-<div align="center" style="margin: 2rem 0;">
-
-<!-- Competitive Coding Section -->
-## 🏆 **Competitive Coding Platforms**
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
-
-<div style="padding: 1.5rem; border-radius: 12px; background: #fff4e6; border: 1px solid #ffe8cc; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
-
-### ⚔️ **Code Challenges**
-
-[![RankRank](https://img.shields.io/badge/RankRank-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.rankrank.com/)  
-<span style="color: #4a5568;">Specialized shell scripting competitions</span>
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/)  
-<span style="color: #4a5568;">Algorithmic challenges with shell track</span>
-
-[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/)  
-<span style="color: #4a5568;">Curated shell scripting exercises</span>
-
-[![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white)](https://www.codewars.com/)  
-<span style="color: #4a5568;">Kata-style shell challenges</span>
-
-</div>
-</div>
-</div>
-
-<!-- Development Resources Section -->
-## 🛠️ **Development Resources & Tools**
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
-
-<div style="padding: 1.5rem; border-radius: 12px; background: #f8f9fe; border: 1px solid #e3e8f7; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
-
-### 🌐 **Collaborative Coding**
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)  
-<span style="color: #4a5568;">Open-source collaboration platform</span>
-
-[![GitLab](https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/)  
-<span style="color: #4a5568;">DevOps with CI/CD pipelines</span>
-
-</div>
-</div>
-
-<div style="padding: 1.5rem; border-radius: 12px; background: #fff5f5; border: 1px solid #fed7d7; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
-
-### 📚 **Script Repositories**
-
-[![AgileScripts](https://img.shields.io/badge/📦_AgileScripts-38b2ac?style=for-the-badge)](https://github.com/AgileScripts/shell-scripts)  
-<span style="color: #4a5568;">Production-ready automation scripts</span>
-
-[![Awesome Shell](https://img.shields.io/badge/⭐_Awesome_Shell-2d3748?style=for-the-badge)](https://github.com/alebcay/awesome-shell)  
-<span style="color: #4a5568;">Curated shell ecosystem</span>
-
-</div>
-</div>
-
-<div style="padding: 1.5rem; border-radius: 12px; background: #f0fdf4; border: 1px solid #bbf7d0; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
-
-### 🧪 **Code Testing**
-
-[![Repl.it](https://img.shields.io/badge/Repl.it-0D101E?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/)  
-<span style="color: #4a5568;">Browser-based scripting IDE</span>
-
-[![JDoodle](https://img.shields.io/badge/JDoodle-4CAF50?style=for-the-badge&logo=codepen&logoColor=white)](https://www.jdoodle.com/)  
-<span style="color: #4a5568;">Multi-language IDE</span>
-
-</div>
-</div>
-
-<div style="padding: 1.5rem; border-radius: 12px; background: #f5f3ff; border: 1px solid #ddd6fe; transition: all 0.3s ease;">
-<div style="margin: 1rem 0;">
-
-### 🎓 **Interactive Learning**
-
-[![Codecademy](https://img.shields.io/badge/Codecademy-1F4056?style=for-the-badge&logo=codecademy&logoColor=white)](https://www.codecademy.com/)  
-<span style="color: #4a5568;">CLI mastery courses</span>
-
-[![SoloLearn](https://img.shields.io/badge/SoloLearn-6495ED?style=for-the-badge&logo=sololearn&logoColor=white)](https://www.sololearn.com/)  
-<span style="color: #4a5568;">Mobile coding challenges</span>
-
-</div>
-</div>
-
-</div>
-
-<style>
-  [style*="transition"]:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  }
-  
-  a:hover {
-    filter: brightness(1.05);
-    text-decoration: none;
-  }
-  
-  @media (max-width: 768px) {
-    div[style*="grid-template-columns"] {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
-</div>
+# 🐚 **Shell Script Coding Resources** 
 
 ---
 
-<div align="center" style="position: relative; padding: 2rem; border-radius: 12px; background: #0f172a; overflow: hidden;">
-  
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
-background: linear-gradient(45deg, #2563eb33 25%, transparent 25%, transparent 75%, #2563eb33 75%), 
-linear-gradient(45deg, #2563eb33 25%, transparent 25%, transparent 75%, #2563eb33 75%);
-background-size: 4px 4px;
-animation: gridMove 20s linear infinite;
-pointer-events: none;
-z-index: 0;"></div>
+## 🏆 Competitive Coding Platforms
 
-<div style="position: relative; z-index: 1;">
-<pre style="color: #38bdf8; background: transparent; border: none;">
+| Platform | Badge | Description |
+|----------|-------|-------------|
+| **RankRank** | [![RankRank](https://img.shields.io/badge/RankRank-F59E0B?logo=codeforces)](https://www.rankrank.com/) | Specialized shell scripting competitions |
+| **LeetCode** | [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode)](https://leetcode.com/) | Algorithmic challenges with shell track |
+| **HackerRank** | [![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?logo=hackerrank)](https://www.hackerrank.com/) | Curated shell scripting exercises |
+| **Codewars** | [![Codewars](https://img.shields.io/badge/Codewars-B1361E?logo=codewars)](https://www.codewars.com/) | Kata-style shell challenges |
 
-# █▀ ▄▀█ █▀█ █▀▀ █▄░█ ▀█▀ █▀
-# ▄█ █▀█ █▀▄ ██▄ █░▀█ ░█░ ▄█
+---
 
-<span style="color: #4ade80">+</span> 📁 Explore Shell Scripting Mastery
-<span style="color: #f87171">-</span> 🖥️  Professional Command Line Techniques
-<span style="color: #fbbf24">!</span> 🔗 Curated Tutorial Links Collection
-</pre>
+## 🛠️ Development Resources & Tools
 
-<pre style="color: #94a3b8; background: #1e293b; padding: 1rem; border-radius: 8px;">
-$ <span style="color: #38bdf8">echo</span> "🌟 Loading Expert Scripts..." | pv -qL 15
-</pre>
+### 🌐 Collaborative Coding
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github)](https://github.com/) - Open-source collaboration  
+[![GitLab](https://img.shields.io/badge/GitLab-FCA121?logo=gitlab)](https://gitlab.com/) - DevOps with CI/CD pipelines
 
-<div style="display: flex; gap: 1rem; justify-content: center; margin: 2rem 0;">
-  <a href="#tutorials" style="text-decoration: none; padding: 0.75rem 1.5rem; 
-  border-radius: 8px; background: #1e3a8a; color: white; 
-  transition: all 0.3s ease;">
-    📚 Tutorials
-  </a>
-  <a href="#cheatsheet" style="text-decoration: none; padding: 0.75rem 1.5rem; 
-  border-radius: 8px; background: #14532d; color: white; 
-  transition: all 0.3s ease;">
-    📋 Cheatsheet
-  </a>
-  <a href="#scripts" style="text-decoration: none; padding: 0.75rem 1.5rem; 
-  border-radius: 8px; background: #701a75; color: white; 
-  transition: all 0.3s ease;">
-    💻 Scripts
-  </a>
-</div>
+### 📚 Script Repositories
+[![AgileScripts](https://img.shields.io/badge/📦_AgileScripts-38b2ac)](https://github.com/AgileScripts/shell-scripts) - Production-ready scripts  
+[![Awesome Shell](https://img.shields.io/badge/⭐_Awesome_Shell-2d3748)](https://github.com/alebcay/awesome-shell) - Curated shell ecosystem
 
-</div>
+### 🧪 Code Testing
+[![Repl.it](https://img.shields.io/badge/Repl.it-0D101E?logo=replit)](https://replit.com/) - Browser-based IDE  
+[![JDoodle](https://img.shields.io/badge/JDoodle-4CAF50?logo=codepen)](https://www.jdoodle.com/) - Multi-language IDE
 
-<style>
-  @keyframes gridMove {
-    0% { background-position: 0 0, 2px 2px; }
-    100% { background-position: 4px 4px, 6px 6px; }
-  }
-  div:hover {
-    transform: translateY(-2px);
-    transition: transform 0.3s ease;
-  }
-</style>
-</div>
+### 🎓 Interactive Learning
+[![Codecademy](https://img.shields.io/badge/Codecademy-1F4056?logo=codecademy)](https://www.codecademy.com/) - CLI courses  
+[![SoloLearn](https://img.shields.io/badge/SoloLearn-6495ED?logo=sololearn)](https://www.sololearn.com/) - Mobile challenges
+
+---
+
+<details>
+<summary>📘 GitHub Rendering Notes</summary>
+
+**Features preserved:**
+- Shield.io badges as interactive links
+- Emoji visual indicators
+- Table-based layout for competitions
+- Native markdown sections
+- Mobile-friendly formatting
+
+**Removed:**
+- Custom CSS/HTML styling
+- Grid layouts
+- Hover effects
+</details>
+
+---
+
+```bash
+#  █▀ ▄▀█ █▀█ █▀▀ █▄░█ ▀█▀ █▀
+#  ▄█ █▀█ █▀▄ ██▄ █░▀█ ░█░ ▄█
+```
+
+> ```diff
+> + 📁 Explore Shell Scripting Mastery
+> - 🖥️ Professional Command Line Techniques
+> ! 🔗 Curated Tutorial Links Collection
+> ```
+
+---
+
+```bash
+# Simulated terminal loading
+$ echo "🌟 Loading Expert Scripts..." | pv -qL 15
+```
+
+---
+
+## 🚀 Quick Navigation
+
+| [![TUTORIALS](https://img.shields.io/badge/📚_TUTORIALS-1e3a8a?style=for-the-badge&logo=gitbook)](%23tutorials) | [![CHEATSHEET](https://img.shields.io/badge/📋_CHEATSHEET-14532d?style=for-the-badge&logo=gitbook)](%23cheatsheet) | [![SCRIPTS](https://img.shields.io/badge/💻_SCRIPTS-701a75?style=for-the-badge&logo=terminal)](%23scripts) |
+|:---:|:---:|:---:|
+
+---
+
+---
+
+## 🏁 **Mastering the Shell: Where Logic Meets Power** ⚡
+
+```bash
+#!/bin/bash
+# 🎯 The Final Wisdom
+echo "🖥️  Your journey doesn't end here..."
+echo "💡 Every script you write makes you:"
+echo "   - 10x faster than GUI warriors"
+echo "   - A system whisperer 🧙"
+echo "   - The automation wizard 🧪"
+```
+
+> *"With great shell power comes great responsibility - automate wisely, document thoroughly, and **always** `exit 0`"* 🔐
+
+---
+
+### 🚀 **Next Steps**
+[![Awesome Shell](https://img.shields.io/badge/🌟_Awesome_Shell-FF7139?style=for-the-badge)](https://github.com/alebcay/awesome-shell)  
+[![Contribute](https://img.shields.io/badge/🤝_Contribute-2ECC71?style=for-the-badge)](https://opensource.guide/)  
+[![Documentation](https://img.shields.io/badge/📘_Official_Docs-3498DB?style=for-the-badge)](https://www.gnu.org/software/bash/manual/)
+
+---
+
+```ascii
+  _________ __                 
+ /   _____//  |______ _______  
+ \_____  \\   __\__  \\_  __ \ 
+ /        \|  |  / __ \|  | \/ 
+/_______  /|__| (____  /__|    
+        \/           \/        
+```
+*"The terminal is your canvas - script masterpieces daily."* 🎨
