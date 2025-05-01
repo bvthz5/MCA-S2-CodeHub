@@ -1,23 +1,30 @@
 #!/bin/bash
 # Find roots of a quadratic equation.
 
-read -p "Enter a b c: " a b c
-d=$((b * b - 4 * a * c))
+echo "Enter coefficients a, b and c:"
+read -p "a = " a
+read -p "b = " b
+read -p "c = " c
 
-if (( d > 0 )); then
-    echo "Distinct roots:"
-    r1=$(bc -l <<< "(-$b + sqrt($d)) / (2 * $a)")
-    r2=$(bc -l <<< "(-$b - sqrt($d)) / (2 * $a)")
-elif (( d == 0 )); then
-    echo "Equal roots:"
-    r1=$(bc -l <<< "-$b / (2 * $a)")
-    r2=$r1
+D=$(echo "$b * $b - 4 * $a * $c" | bc -l)
+
+if (( $(echo "$D > 0" | bc -l) )); then
+    r1=$(echo "(-$b + sqrt($D)) / (2 * $a)" | bc -l)
+    r2=$(echo "(-$b - sqrt($D)) / (2 * $a)" | bc -l)
+    echo "Real and distinct roots:"
+    echo "Root 1 = $r1"
+    echo "Root 2 = $r2"
+
+elif (( $(echo "$D == 0" | bc -l) )); then
+    r=$(echo "-$b / (2 * $a)" | bc -l)
+    echo "Real and equal roots:"
+    echo "Root = $r"
+
 else
+    bv=$(echo "-1 * $D" | bc -l)
+    real=$(echo "-$b / (2 * $a)" | bc -l)
+    imag=$(echo "sqrt($bv) / (2 * $a)" | bc -l)
     echo "Complex roots:"
-    real=$(bc -l <<< "-$b / (2 * $a)")
-    imag=$(bc -l <<< "sqrt(-$d) / (2 * $a)")
-    r1="$real + ${imag}i"
-    r2="$real - ${imag}i"
+    echo "Root 1 = $real + ${imag}i"
+    echo "Root 2 = $real - ${imag}i"
 fi
-
-echo "$r1, $r2"
