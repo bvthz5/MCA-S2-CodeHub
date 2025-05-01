@@ -1,12 +1,20 @@
 #!/bin/bash
 # Find sum of odd and even numbers.
 
-read -p "Enter numbers: " -a nums
-even=0 odd=0
+echo "Enter numbers:"
+read numbers
 
-for n in "${nums[@]}"; do
-    (( n % 2 )) && (( odd += n )) || (( even += n ))
+even=0
+odd=0
+
+for n in $numbers
+do
+  if (( n % 2 == 0 )); then
+    even=$((even + n))
+  else
+    odd=$((odd + n))
+  fi
 done
 
-echo "Even Sum: $even"
-echo "Odd Sum: $odd"
+echo "Even sum = $even"
+echo "Odd sum = $odd"
